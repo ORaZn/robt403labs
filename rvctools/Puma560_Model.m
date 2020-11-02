@@ -134,7 +134,7 @@ Jacobian_2 = p560.jacob0(qz);
 F1 = p560.gravload(qr);
 F2 = p560.gravload(qz);
 
-Torque_1 = Jacobian_1*transpose(F1)
-Torque_2 = Jacobian_2*transpose(F2)
+%Torque_1 = Jacobian_1*transpose(F1)
+%Torque_2 = Jacobian_2*transpose(F2)
 
 clear L
